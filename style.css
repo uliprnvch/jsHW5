@@ -11,6 +11,7 @@ button{
     background-color: #331b9b;
     border: none;
     cursor: pointer;
+    margin: 7px;
  }
  .clear-btn, .delete-btn{
    color: #fff;
@@ -25,9 +26,11 @@ button{
  input{
     width: 150px;
     height: 25px;
-    padding-left: 5px;  
+    padding-left: 5px; 
+    margin: 7px; 
  }
  .user__select-name{
     height: 30px;
     width: 159px;
+    margin: 7px;
  }
