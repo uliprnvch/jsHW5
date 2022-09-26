@@ -13,18 +13,18 @@
         <form>
             <fieldset>
                 <legend>For Bank</legend>
-                    <input class="bank__name" type='text' placeholder="Name"></input>
-                    <input class="bank__percent" type='number' placeholder="Percent"></input>
-                    <input class="bank__cap_term" type='number' placeholder="Сapitalization term (years)"></input>
-                    <button disabled class="bank__send-to-user">Send to user</button>
+                    <input class="bank_name" type='text' placeholder="Name"></input>
+                    <input class="bank_percent" type='number' placeholder="Percent"></input>
+                    <input class="bank_cap-term" type='number' placeholder="Сapitalization term"></input>
+                    <button disabled class="bank_send-to-user">Send to user</button>
                     <button class="clear-btn" id="clear-btn">Clear inputs</button>
             </fieldset>
             <fieldset>
                 <legend>For User</legend>
-                    <select class="user__select-name" id="user__product"></select>
-                    <input class="user__amount" required type='number' placeholder="Amount"></input>
-                    <input class="user__period" required type='number' placeholder="Period"></input>
-                    <button disabled id="user__get-result" class='user__get-result'>Get result</button>
+                    <select class="user_select-name" id="user__product"></select>
+                    <input class="user_amount" required type='number' placeholder="Amount"></input>
+                    <input class="user_period" required type='number' placeholder="Period"></input>
+                    <button disabled id="user_get-result" class='user_get-result'>Get result</button>
                     <button class="delete-btn" id="delete-btn">Delete prodcut</button>
             </fieldset>
         </form>
