@@ -1,0 +1,33 @@
+body{
+    /* display: flex; */
+  align-items: center;
+  justify-content: center;
+    text-align: center;
+    justify-content: center;
+}
+button{
+    width: 150px;
+    height: 30px;
+    background-color: #331b9b;
+    border: none;
+    cursor: pointer;
+ }
+ .clear-btn, .delete-btn{
+   color: #fff;
+ }
+ .clear-btn:hover, .delete-btn:hover{
+    font-weight: bold;
+    border: 2px solid rgb(160, 11, 123);
+ }
+ button:active{
+    border: none;
+ }
+ input{
+    width: 150px;
+    height: 25px;
+    padding-left: 5px;  
+ }
+ .user__select-name{
+    height: 30px;
+    width: 159px;
+ }
